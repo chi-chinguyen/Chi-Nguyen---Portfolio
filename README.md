@@ -41,8 +41,8 @@ For more information, please refer to my CV here.
 ### Animal Movement in Foraging Analysis
 - **Description**: Analyzed animal movement patterns to understand their foraging behavior and environmental influences.
 - **Tools Used**: R, Excel, PowerPoint
-- **Report**: [Animal Movement Report (PDF)](Animal Movement Report.pdf)
-- **Presentation**: [Animal Movement PowerPoint](Animal Movement PPTX.pptx)
+- **Report**: [Animal Movement Report (PDF)](Animal_Movement_Report.pdf)
+- **Presentation**: [Animal Movement PowerPoint](Animal_Movement_PPTX.pptx)
 
 ---
 
