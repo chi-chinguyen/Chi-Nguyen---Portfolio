@@ -21,7 +21,6 @@ My background includes business data analysis, project management, and statistic
 This repository contains projects that demonstrate my analytical and technical skills with tools like Excel, PowerPoint, SAS, R, and others. The projects involve analyzing business data, creating reports, and visualizing insights to support decision-making.
 
 For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf). 
-![CV_Image](Chi_Nguyen_CV_Image.png)
 
 ---
 
