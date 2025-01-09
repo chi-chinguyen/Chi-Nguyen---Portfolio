@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Projects](#projects)
    - [Assessing Loan Status Analysis](#assessing-loan-status-analysis)
-   - [Body Image of Patients with Cancer](#body-image-of-patients-with-cancer)
+   - [Body Image of Patients with Cancer Analysis](#body-image-of-patients-with-cancer)
    - [Animal Movement in Foraging Analysis](#animal-movement-in-foraging-analysis) 
 4. [Skills & Tools](#skills--tools)
 5. [Contacts](#contacts)
