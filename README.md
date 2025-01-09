@@ -4,9 +4,9 @@
 
 1. [Introduction](#introduction)
 2. [Projects](#projects)
-   - [Project 1: Assessing Loan Status Analysis](#assessing-loan-status-analysis)
-   - [Project 2: Body Image of Patients with Cancer](#body-image-of-patients-with-cancer)
-   - [Project 3: Animal Movement in Foraging Analysis](#animal-movement-in-foraging-analysis) 
+   - [Assessing Loan Status Analysis](#assessing-loan-status-analysis)
+   - [Body Image of Patients with Cancer](#body-image-of-patients-with-cancer)
+   - [Animal Movement in Foraging Analysis](#animal-movement-in-foraging-analysis) 
 4. [Skills & Tools](#skills--tools)
 5. [Contacts](#contacts)
 
@@ -27,18 +27,22 @@ For more information, please refer to my CV here.
 
 ### Assessing Loan Status Analysis
 - Description: Predicts which loans are likely to be repaid and which might default, helping lenders create smarter lending strategies.
-- Tools Used: R, SAS, Excel, PowerPoint
-- [View Project](https://github.com/username/loan-status-analysis)
+- **Tools Used: R, SAS, Excel, PowerPoint
+- **Report**: [Body Image Report (PDF)](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Loan_Status_Report.pdf)
+- **Presentation**: [Body Image PowerPoint](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Loan_Status_PPTX.pptx)
 
 ### Body Image of Patients with Cancer
 - Description: The study’s goal is to gather insights on cancer patients' perceptions of their body image.
-- Tools Used: SAS, R
-- [View Project](https://github.com/username/body-image-cancer)
+- Tools Used: SAS, R, PowerPoint, Excel
+- **Report**: [Body Image Report (PDF)](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Body_Image_Report.pdf)
+- **Presentation**: [Body Image PowerPoint](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Body_Image_PPTX.pptx)
 
 ### Animal Movement in Foraging Analysis
 - Description: Analyzed animal movement patterns to understand their foraging behavior and environmental influences.
 - Tools Used: R, Excel, PowerPoint
-- [View Project](https://github.com/username/animal-movement-foraging)
+- **Report**: [Animal Movement Report (PDF)](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Animal_Movement_Report.pdf)
+- **Presentation**: [Animal Movement PowerPoint](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Animal_Movement_PPTX.pptx)
+
 ---
 
 ## Skills & Tools
