@@ -29,20 +29,20 @@ For more information, please refer to my CV here.
 ### Assessing Loan Status Analysis
 - **Description**: Predicts which loans are likely to be repaid and which might default, helping lenders create smarter lending strategies.
 - **Tools Used**: R, SAS, Excel, PowerPoint
-- **Report**: [Body Image Report (PDF)](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Loan_Status_Report.pdf)
-- **Presentation**: [Body Image PowerPoint](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Loan_Status_PPTX.pptx)
+- **Report**: [Loan Status Report (PDF)](Loan Status Report.pdf)
+- **Presentation**: [Loan Status PowerPoint](Loan Status PPTX .pptx)
 
 ### Body Image of Patients with Cancer
 - **Description**: The study’s goal is to gather insights on cancer patients' perceptions of their body image.
 - **Tools Used**: SAS, R, PowerPoint, Excel
-- **Report**: [Body Image Report (PDF)](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Body_Image_Report.pdf)
-- **Presentation**: [Body Image PowerPoint](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Body_Image_PPTX.pptx)
+- **Report**: [Body Image Report (PDF)](Body Image Report.pdf)
+- **Presentation**: [Body Image PowerPoint](Body Image PPTX.pptx)
 
 ### Animal Movement in Foraging Analysis
 - **Description**: Analyzed animal movement patterns to understand their foraging behavior and environmental influences.
 - **Tools Used**: R, Excel, PowerPoint
-- **Report**: [Animal Movement Report (PDF)](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Animal_Movement_Report.pdf)
-- **Presentation**: [Animal Movement PowerPoint](https://github.com/chi-chinguyen/ChiNguyen-Porfolio/blob/main/Animal_Movement_PPTX.pptx)
+- **Report**: [Animal Movement Report (PDF)](Animal Movement Report.pdf)
+- **Presentation**: [Animal Movement PowerPoint](Animal Movement PPTX.pptx)
 
 ---
 
