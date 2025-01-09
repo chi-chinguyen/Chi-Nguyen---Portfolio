@@ -29,14 +29,14 @@ For more information, please refer to my CV here.
 ### Assessing Loan Status Analysis
 - **Description**: Predicts which loans are likely to be repaid and which might default, helping lenders create smarter lending strategies.
 - **Tools Used**: R, SAS, Excel, PowerPoint
-- **Report**: [Loan Status Report (PDF)](Loan Status Report.pdf)
-- **Presentation**: [Loan Status PowerPoint](Loan Status PPTX .pptx)
+- **Report**: [Loan Status Report (PDF)](Loan_Status_Report.pdf)
+- **Presentation**: [Loan Status PowerPoint](Loan_Status_PPTX.pptx)
 
 ### Body Image of Patients with Cancer
 - **Description**: The study’s goal is to gather insights on cancer patients' perceptions of their body image.
 - **Tools Used**: SAS, R, PowerPoint, Excel
-- **Report**: [Body Image Report (PDF)](Body Image Report.pdf)
-- **Presentation**: [Body Image PowerPoint](Body Image PPTX.pptx)
+- **Report**: [Body Image Report (PDF)](Body_Image_Report.pdf)
+- **Presentation**: [Body Image PowerPoint](Body_Image_PPTX.pptx)
 
 ### Animal Movement in Foraging Analysis
 - **Description**: Analyzed animal movement patterns to understand their foraging behavior and environmental influences.
