@@ -31,21 +31,21 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: R, SAS, Excel, PowerPoint
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques
 - **Report**: [Loan Status Report (PDF)](Loan_Status_Report.pdf)
-- **Presentation**: [Loan Status PowerPoint](Loan_Status_PPTX.pptx)
+- **Presentation**: [Loan Status PowerPoint](Loan_Status_PPTX.pdf)
 
 ### Body Image of Patients with Cancer
 - **Description**: This study aims to gather insights into cancer patients' perceptions of their body image, using statistical analysis to explore factors influencing their self-image and psychological well-being.
 - **Tools Used**: SAS, R, PowerPoint, Excel
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques
 - **Report**: [Body Image Report (PDF)](Body_Image_Report.pdf)
-- **Presentation**: [Body Image PowerPoint](Body_Image_PPTX.pptx)
+- **Presentation**: [Body Image PowerPoint](Body_Image_PPTX.pdf)
 
 ### Animal Movement in Foraging Analysis
 - **Description**: This project analyzes animal movement patterns concerning their foraging behavior and environmental factors, helping to better understand their survival strategies and habitat preferences.
 - **Tools Used**: R, Excel, PowerPoint
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques
 - **Report**: [Animal Movement Report (PDF)](Animal_Movement_Report.pdf)
-- **Presentation**: [Animal Movement PowerPoint](Animal_Movement_PPTX.pptx)
+- **Presentation**: [Animal Movement PowerPoint](Animal_Movement_PPTX.pdf)
 
 ---
 
