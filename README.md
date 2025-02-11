@@ -32,11 +32,7 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: R, SAS, Excel, PowerPoint
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
 - - **Approach**: Logistic regression models, including complementary log-log, were tested to predict loan repayment likelihood. Evaluation of model performance was done using criteria such as AIC, AICC, and BIC. Significant predictors were identified, and model sensitivity was tested through hypothetical scenarios.
-- **Result**:
-  ~ Complementary Log-Log Model: Best fit for predicting loan repayment, with lowest AIC, AICC, and BIC values.
-   ~ Significant Predictors: Person Income, Loan Amount, Loan Interest Rate, Loan Intent for Debt Consolidation, and Home Ownership (Mortgage/Owned) were significant at the 5% level.
-   ~ Predicted Probabilities: 72.25% chance of repayment for a sample borrower.
-   ~ Sensitivity: Model highly sensitive to "Home Ownership," with renters having a 94.87% default likelihood.
+- **Result**: The complementary log-log model proved to be the most effective for predicting loan repayment. Key factors influencing repayment likelihood included income, loan amount, interest rate, loan intent, and home ownership status. The model demonstrated high sensitivity to home ownership, with renters showing a significantly higher risk of default.
 - **Report**: [Loan Status Report (PDF)](Loan_Status_Report.pdf)
 - **Presentation**: [Loan Status PowerPoint](Loan_Status_PPTX.pdf)
 
@@ -46,10 +42,7 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: SAS, R, PowerPoint, Excel.
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
 - **Approach**: One-way ANOVA, Tukey test, Kruskal-Wallis H-test, and Wilcoxon Rank Sum test were used to examine statistical differences across patient groups.
-- **Result**:
-   ~ One-Way ANOVA: Significant differences were found between Work Status and SIS (p-value = 0.0242), while no significant difference was observed between Education Years and QMI (p-value = 0.3481).
-   ~ Tukey Test: A significant difference was found between "Employed" and "Retired" groups regarding SIS mean, but no other significant differences between Work Status groups.
-   ~ Kruskal-Wallis H-test: Significant differences in SIS were observed between the "Employed" and "Retired" groups, but no significant differences between "Unemployed" & "Retired" and other pairs.
+- **Result**: Statistical analysis revealed significant differences in body image perceptions based on work status, particularly between employed and retired individuals. However, no notable differences were observed in relation to education level or between other work-status groups.
 - **Report**: [Body Image Report (PDF)](Body_Image_Report.pdf)
 - **Presentation**: [Body Image PowerPoint](Body_Image_PPTX.pdf)
 
