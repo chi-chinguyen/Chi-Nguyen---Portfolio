@@ -28,24 +28,55 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 
 ### Assessing Loan Status Analysis
 - **Description**: The goal of this project is to predict which loans are likely to be repaid and which may default, helping lenders make smarter lending decisions. The analysis leverages various predictive modeling techniques to assess loan status and enhance decision-making.
+- **Data**: The dataset, sourced from Kaggle, contains more than 32,000 loan records with 12 predictors. A random sample of 1,000 observations was selected for analysis. The key variables include loan status (binary: repaid or defaulted), loan amount, income, loan interest rate, years of employment, loan intent, and home ownership status.
 - **Tools Used**: R, SAS, Excel, PowerPoint
-- **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques
+- **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
+- - **Approach**: Logistic regression models, including complementary log-log, were tested to predict loan repayment likelihood. Evaluation of model performance was done using criteria such as AIC, AICC, and BIC. Significant predictors were identified, and model sensitivity was tested through hypothetical scenarios.
+- **Result**:
+  ~ Complementary Log-Log Model: Best fit for predicting loan repayment, with lowest AIC, AICC, and BIC values.
+   ~ Significant Predictors: Person Income, Loan Amount, Loan Interest Rate, Loan Intent for Debt Consolidation, and Home Ownership (Mortgage/Owned) were significant at the 5% level.
+   ~ Predicted Probabilities: 72.25% chance of repayment for a sample borrower.
+   ~ Sensitivity: Model highly sensitive to "Home Ownership," with renters having a 94.87% default likelihood.
 - **Report**: [Loan Status Report (PDF)](Loan_Status_Report.pdf)
 - **Presentation**: [Loan Status PowerPoint](Loan_Status_PPTX.pdf)
 
 ### Body Image of Patients with Cancer
 - **Description**: This study aims to gather insights into cancer patients' perceptions of their body image, using statistical analysis to explore factors influencing their self-image and psychological well-being.
-- **Tools Used**: SAS, R, PowerPoint, Excel
-- **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques
+- **Data**: The data, collected between 2002 and 2016, involved 536 cancer patients from inpatient (rehabilitation clinic Oberharz, municipal hospital Braunschweig, university hospital Munich) and outpatient settings (oncology practices in Braunschweig). Participants were of full age, spoke German, and had no apparent mental disorders.
+- **Tools Used**: SAS, R, PowerPoint, Excel.
+- **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
+- **Approach**: One-way ANOVA, Tukey test, Kruskal-Wallis H-test, and Wilcoxon Rank Sum test were used to examine statistical differences across patient groups.
+- **Result**:
+   ~ One-Way ANOVA: Significant differences were found between Work Status and SIS (p-value = 0.0242), while no significant difference was observed between Education Years and QMI (p-value = 0.3481).
+   ~ Tukey Test: A significant difference was found between "Employed" and "Retired" groups regarding SIS mean, but no other significant differences between Work Status groups.
+   ~ Kruskal-Wallis H-test: Significant differences in SIS were observed between the "Employed" and "Retired" groups, but no significant differences between "Unemployed" & "Retired" and other pairs.
 - **Report**: [Body Image Report (PDF)](Body_Image_Report.pdf)
 - **Presentation**: [Body Image PowerPoint](Body_Image_PPTX.pdf)
 
 ### Animal Movement in Foraging Analysis
-- **Description**: This project analyzes animal movement patterns concerning their foraging behavior and environmental factors, helping to better understand their survival strategies and habitat preferences.
-- **Tools Used**: R, Excel, PowerPoint
-- **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques
+- **Description**: This project analyzes animal movement patterns in relation to foraging behavior and environmental factors, focusing on whether movements are random or influenced by memory.
+- **Data**: The dataset, from Bracis et al. (2015), includes animal movement data during foraging, covering metrics like step lengths, turning angles, and displacement over time. Key variables include turning angles, distance traveled, and resource regeneration rate.
+- **Tools Used**: R, Excel, PowerPoint.
+- **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
+- **Approach**: Random walk models were used to examine animal movement. The analysis involved visualizing movement patterns, calculating turning angles, and assessing the impact of resource regeneration rates on travel distance.
+- **Result**:
+   ~ Resource Regeneration Rate: Animals traveled longer distances at lower regeneration rates, indicating that scarce resources lead to wider foraging areas.
+   ~ Random Walk: The 2D movement graph showed smooth, consistent upward trends, suggesting memory-guided movement rather than randomness.
+   ~ Turning Angle: High cosine and near-zero sine values indicated directional persistence, reinforcing the idea of memory-driven foraging behavior.
 - **Report**: [Animal Movement Report (PDF)](Animal_Movement_Report.pdf)
 - **Presentation**: [Animal Movement PowerPoint](Animal_Movement_PPTX.pdf)
+
+### Cross-border Hub, Leflair Vietnam 
+- **Description**: Led the development of a cross-border e-commerce hub, connecting suppliers with Vietnamese consumers via a direct sales model from Singapore. Leveraged data-driven insights to optimize product selection, website layout, and sales performance while collaborating with internal teams, suppliers, and BI professionals to enhance market competitiveness.
+- **Tools Used**: Excel, PowerPoint
+- **Skills**: Market research, business strategy, sales performance analysis, data-driven decision-making, collaboration with BI and Tech teams, supplier negotiation, cross-functional communication
+- **Key Responsibilities & Achievements**:
+   ~ Conducted market research on consumer demand, product trends, and competitors to optimize the product lineup.
+   ~ Managed supplier relationships, negotiating pricing and availability for seamless operations and competitive pricing.
+   ~ Collaborated with BI and Tech teams to analyze sales performance and customer insights, driving data-driven marketing and product strategies.
+   ~ Monitored sales flow and conversion rates, identifying engagement drivers and implementing strategies for improved performance.
+   ~ Provided input on product display hierarchy and website layout to prioritize high-performing items and maximize revenue.
+   ~ Supported strategic decision-making with data insights from BI reports to refine business development initiatives.
 
 ---
 
