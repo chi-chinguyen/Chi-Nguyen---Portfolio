@@ -31,7 +31,7 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Data**: The dataset, sourced from Kaggle, contains more than 32,000 loan records with 12 predictors. A random sample of 1,000 observations was selected for analysis. The key variables include loan status (binary: repaid or defaulted), loan amount, income, loan interest rate, years of employment, loan intent, and home ownership status.
 - **Tools Used**: R, SAS, Excel, PowerPoint
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
-- - **Approach**: Logistic regression models, including complementary log-log, were tested to predict loan repayment likelihood. Evaluation of model performance was done using criteria such as AIC, AICC, and BIC. Significant predictors were identified, and model sensitivity was tested through hypothetical scenarios.
+- **Approach**: Logistic regression models, including complementary log-log, were tested to predict loan repayment likelihood. Evaluation of model performance was done using criteria such as AIC, AICC, and BIC. Significant predictors were identified, and model sensitivity was tested through hypothetical scenarios.
 - **Result**: The complementary log-log model proved to be the most effective for predicting loan repayment. Key factors influencing repayment likelihood included income, loan amount, interest rate, loan intent, and home ownership status. The model demonstrated high sensitivity to home ownership, with renters showing a significantly higher risk of default.
 - **Report**: [Loan Status Report (PDF)](Loan_Status_Report.pdf)
 - **Presentation**: [Loan Status PowerPoint](Loan_Status_PPTX.pdf)
@@ -52,10 +52,7 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: R, Excel, PowerPoint.
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
 - **Approach**: Random walk models were used to examine animal movement. The analysis involved visualizing movement patterns, calculating turning angles, and assessing the impact of resource regeneration rates on travel distance.
-- **Result**:
-   ~ Resource Regeneration Rate: Animals traveled longer distances at lower regeneration rates, indicating that scarce resources lead to wider foraging areas.
-   ~ Random Walk: The 2D movement graph showed smooth, consistent upward trends, suggesting memory-guided movement rather than randomness.
-   ~ Turning Angle: High cosine and near-zero sine values indicated directional persistence, reinforcing the idea of memory-driven foraging behavior.
+- **Result**: The analysis revealed that resource availability significantly influenced the animal movement, with scarce resources leading to wider foraging areas. Movement patterns suggested a memory-guided strategy rather than random exploration, as indicated by strong directional persistence and consistent travel paths.
 - **Report**: [Animal Movement Report (PDF)](Animal_Movement_Report.pdf)
 - **Presentation**: [Animal Movement PowerPoint](Animal_Movement_PPTX.pdf)
 
@@ -64,12 +61,12 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: Excel, PowerPoint
 - **Skills**: Market research, business strategy, sales performance analysis, data-driven decision-making, collaboration with BI and Tech teams, supplier negotiation, cross-functional communication
 - **Key Responsibilities & Achievements**:
-   ~ Conducted market research on consumer demand, product trends, and competitors to optimize the product lineup.
-   ~ Managed supplier relationships, negotiating pricing and availability for seamless operations and competitive pricing.
-   ~ Collaborated with BI and Tech teams to analyze sales performance and customer insights, driving data-driven marketing and product strategies.
-   ~ Monitored sales flow and conversion rates, identifying engagement drivers and implementing strategies for improved performance.
-   ~ Provided input on product display hierarchy and website layout to prioritize high-performing items and maximize revenue.
-   ~ Supported strategic decision-making with data insights from BI reports to refine business development initiatives.
+- - Conducted market research on consumer demand, product trends, and competitors to optimize the product lineup.
+- - Managed supplier relationships, negotiating pricing and availability for seamless operations and competitive pricing.
+- - Collaborated with BI and Tech teams to analyze sales performance and customer insights, driving data-driven marketing and product strategies.
+- - Monitored sales flow and conversion rates, identifying engagement drivers and implementing strategies for improved performance.
+- - Provided input on product display hierarchy and website layout to prioritize high-performing items and maximize revenue.
+- - Supported strategic decision-making with data insights from BI reports to refine business development initiatives.
 
 ---
 
