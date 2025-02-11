@@ -32,9 +32,9 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: R, SAS, Excel, PowerPoint
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
 - **Approach**: Logistic regression models, including complementary log-log, were tested to predict loan repayment likelihood. Evaluation of model performance was done using criteria such as AIC, AICC, and BIC. Significant predictors were identified, and model sensitivity was tested through hypothetical scenarios.
+[Loan Status Report (PDF)](Loan_Status_Report.pdf)
 - **Result**: The complementary log-log model proved to be the most effective for predicting loan repayment. Key factors influencing repayment likelihood included income, loan amount, interest rate, loan intent, and home ownership status. The model demonstrated high sensitivity to home ownership, with renters showing a significantly higher risk of default.
-- **Report**: [Loan Status Report (PDF)](Loan_Status_Report.pdf)
-- **Presentation**: [Loan Status PowerPoint](Loan_Status_PPTX.pdf)
+[Loan Status PowerPoint](Loan_Status_PPTX.pdf)
 
 ### Body Image of Patients with Cancer
 - **Description**: This study aims to gather insights into cancer patients' perceptions of their body image, using statistical analysis to explore factors influencing their self-image and psychological well-being.
@@ -42,9 +42,9 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: SAS, R, PowerPoint, Excel.
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
 - **Approach**: One-way ANOVA, Tukey test, Kruskal-Wallis H-test, and Wilcoxon Rank Sum test were used to examine statistical differences across patient groups.
+[Body Image Report (PDF)](Body_Image_Report.pdf)
 - **Result**: Statistical analysis revealed significant differences in body image perceptions based on work status, particularly between employed and retired individuals. However, no notable differences were observed in relation to education level or between other work-status groups.
-- **Report**: [Body Image Report (PDF)](Body_Image_Report.pdf)
-- **Presentation**: [Body Image PowerPoint](Body_Image_PPTX.pdf)
+[Body Image PowerPoint](Body_Image_PPTX.pdf)
 
 ### Animal Movement in Foraging Analysis
 - **Description**: This project analyzes animal movement patterns in relation to foraging behavior and environmental factors, focusing on whether movements are random or influenced by memory.
@@ -52,9 +52,9 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: R, Excel, PowerPoint.
 - **Skills**: Analytical problem-solving, data preprocessing, data analysis, data visualization, and application of predictive modeling techniques.
 - **Approach**: Random walk models were used to examine animal movement. The analysis involved visualizing movement patterns, calculating turning angles, and assessing the impact of resource regeneration rates on travel distance.
+[Animal Movement Report (PDF)](Animal_Movement_Report.pdf)
 - **Result**: The analysis revealed that resource availability significantly influenced the animal movement, with scarce resources leading to wider foraging areas. Movement patterns suggested a memory-guided strategy rather than random exploration, as indicated by strong directional persistence and consistent travel paths.
-- **Report**: [Animal Movement Report (PDF)](Animal_Movement_Report.pdf)
-- **Presentation**: [Animal Movement PowerPoint](Animal_Movement_PPTX.pdf)
+[Animal Movement PowerPoint](Animal_Movement_PPTX.pdf)
 
 ### Cross-border Hub, Leflair Vietnam 
 - **Description**: Led the development of a cross-border e-commerce hub, connecting suppliers with Vietnamese consumers via a direct sales model from Singapore. Leveraged data-driven insights to optimize product selection, website layout, and sales performance while collaborating with internal teams, suppliers, and BI professionals to enhance market competitiveness.
