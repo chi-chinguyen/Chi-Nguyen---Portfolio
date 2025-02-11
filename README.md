@@ -61,7 +61,7 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: Excel, PowerPoint
 - **Skills**: Market research, business strategy, sales performance analysis, data-driven decision-making, collaboration with BI and Tech teams, supplier negotiation, cross-functional communication
 - **Key Responsibilities & Achievements**:
-- - Conducted market research on consumer demand, product trends, and competitors to optimize the product lineup.
+  - Conducted market research on consumer demand, product trends, and competitors to optimize the product lineup.
   - Managed supplier relationships, negotiating pricing and availability for seamless operations and competitive pricing.
   - Collaborated with BI and Tech teams to analyze sales performance and customer insights, driving data-driven marketing and product strategies.
   - Monitored sales flow and conversion rates, identifying engagement drivers and implementing strategies for improved performance.
