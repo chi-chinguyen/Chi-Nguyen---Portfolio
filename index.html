@@ -1,72 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Chi Nguyen - Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1 { color: #1a73e8; text-align: center; }
-    h2 { text-align: center; margin-top: 40px; }
-    h3 { margin-top: 25px; }
-    ul { line-height: 1.8; }
-    a { color: #1a73e8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .section { margin-bottom: 50px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Nguyen - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        nav {
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project a {
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>Chi Nguyen - Portfolio</h1>
+    <header>
+        <h1>Chi Nguyen - Portfolio</h1>
+        <nav>
+            <a href="#introduction">Introduction</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills-tools">Skills & Tools</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
 
-  <h2>Introduction</h2>
-  <div class="section">
-    <p>Hi, my name is Chi Nguyen, and this is my portfolio.</p>
-    <p>I am a student at California State University, Long Beach. I enjoy analyzing business data, uncovering insights, and presenting them through clear visualizations. 
-    My background includes business data analysis, project management, and statistics, with strong skills in tools like Excel, PowerPoint, SAS, and R.</p>
-    <p>This repository contains projects that demonstrate my analytical and technical skills with tools like Excel, PowerPoint, SAS, R, and others. The projects involve analyzing business data, creating reports, and visualizing insights to support decision-making.</p>
-    <p>For more information, please refer to my CV: <a href="Chi_Nguyen_CV.pdf">Chi_Nguyen_CV.pdf</a></p>
-  </div>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Hi, my name is Chi Nguyen, and this is my portfolio.</p>
+            <p>I am a student at California State University, Long Beach. I enjoy analyzing business data, uncovering insights, and presenting them through clear visualizations.</p>
+            <p>My background includes business data analysis, project management, and statistics, with strong skills in tools like Excel, PowerPoint, SAS, and R.</p>
+            <p>This repository contains projects that demonstrate my analytical and technical skills with tools like Excel, PowerPoint, SAS, R, and others. The projects involve analyzing business data, creating reports, and visualizing insights to support decision-making.</p>
+            <p>For more information, please refer to my CV <a href="Chi_Nguyen_CV.pdf">here</a>.</p>
+        </section>
 
-  <h2>Projects</h2>
+        <section id="projects">
+            <h2>Projects</h2>
 
-  <div class="section">
-    <h3>Assessing Loan Status Analysis</h3>
-    <p><a href="Loan_Status_Approach.pdf">Loan Status Approach</a> · <a href="Loan_Status_Results.pdf">Loan Status Results</a></p>
-  </div>
+            <div class="project" id="assessing-loan-status-analysis">
+                <h3>Assessing Loan Status Analysis</h3>
+                <ul>
+                    <li><strong>Description:</strong> Predicting which loans are likely to be repaid vs defaulted to help lenders make smarter lending decisions.</li>
+                    <li><strong>Data:</strong> Kaggle dataset of 32,000+ loan records (sample of 1,000 used).</li>
+                    <li><strong>Tools Used:</strong> R, SAS, Excel, PowerPoint</li>
+                    <li><strong>Skills:</strong> Data preprocessing, visualization, predictive modeling</li>
+                    <li><strong>Approach:</strong> Logistic regression models (including complementary log-log). Evaluated using AIC, AICC, BIC. <a href="Loan_Status_Approach.pdf">Loan Status Approach</a></li>
+                    <li><strong>Result:</strong> Complementary log-log was most effective. Key predictors: income, loan amount, interest rate, loan intent, home ownership. <a href="Loan_Status_Results.pdf">Loan Status Results</a></li>
+                </ul>
+            </div>
 
-  <div class="section">
-    <h3>Body Image of Patients with Cancer</h3>
-    <p><a href="Body_Image_Approach.pdf">Body Image Approach</a> · <a href="Body_Image_Results.pdf">Body Image Results</a></p>
-  </div>
+            <div class="project" id="body-image-of-patients-with-cancer">
+                <h3>Body Image of Patients with Cancer</h3>
+                <ul>
+                    <li><strong>Description:</strong> Analysis of body image perceptions among cancer patients.</li>
+                    <li><strong>Data:</strong> 536 patients (2002–2016), inpatient and outpatient.</li>
+                    <li><strong>Tools Used:</strong> SAS, R, PowerPoint, Excel</li>
+                    <li><strong>Skills:</strong> Statistical analysis, hypothesis testing</li>
+                    <li><strong>Approach:</strong> One-way ANOVA, Tukey test, Kruskal-Wallis H-test, Wilcoxon Rank Sum test. <a href="Body_Image_Approach.pdf">Body Image Approach</a></li>
+                    <li><strong>Result:</strong> Significant differences in body image by work status (employed vs retired). No notable differences by education level. <a href="Body_Image_Results.pdf">Body Image Results</a></li>
+                </ul>
+            </div>
 
-  <div class="section">
-    <h3>Animal Movement in Foraging Analysis</h3>
-    <p><a href="Animal_Movement_Approach.pdf">Animal Movement Approach</a> · <a href="Animal_Movement_Results.pdf">Animal Movement Results</a></p>
-  </div>
+            <div class="project" id="animal-movement-in-foraging-analysis">
+                <h3>Animal Movement in Foraging Analysis</h3>
+                <ul>
+                    <li><strong>Description:</strong> Analyzing animal movement patterns in relation to foraging and resource availability.</li>
+                    <li><strong>Data:</strong> Bracis et al. (2015), step lengths, turning angles, displacement.</li>
+                    <li><strong>Tools Used:</strong> R, Excel, PowerPoint</li>
+                    <li><strong>Skills:</strong> Random walk modeling, data visualization</li>
+                    <li><strong>Approach:</strong> Modeled foraging behavior, tested effect of regeneration rates. <a href="Animal_Movement_Approach.pdf">Animal Movement Approach</a></li>
+                    <li><strong>Result:</strong> Scarce resources → wider foraging areas. Movement patterns suggested memory-guided strategy, not random. <a href="Animal_Movement_Results.pdf">Animal Movement Results</a></li>
+                </ul>
+            </div>
 
-  <div class="section">
-    <h3>Cross-border Hub, Leflair Vietnam</h3>
-    <p>Description and details of this project.</p>
-  </div>
+            <div class="project" id="cross-border-hub-leflair-vietnam">
+                <h3>Cross-border Hub, Leflair Vietnam</h3>
+                <ul>
+                    <li><strong>Description:</strong> Led development of cross-border e-commerce hub connecting suppliers with Vietnamese consumers.</li>
+                    <li><strong>Tools Used:</strong> Excel, PowerPoint</li>
+                    <li><strong>Skills:</strong> Market research, strategy, supplier negotiation, BI collaboration</li>
+                    <li><strong>Key Responsibilities & Achievements:</strong>
+                        <ul>
+                            <li>Conducted market research on consumer demand and competitors.</li>
+                            <li>Negotiated supplier pricing and managed relationships.</li>
+                            <li>Collaborated with BI & Tech teams for sales insights and strategy.</li>
+                            <li>Improved website layout and product display hierarchy.</li>
+                            <li>Monitored conversion rates and implemented engagement strategies.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-  <h2>Skills & Tools</h2>
-  <div class="section">
-    <ul>
-      <li><b>Data Analysis:</b> Statistical analysis, predictive modeling, data interpretation</li>
-      <li><b>Business Analytics:</b> Market analysis, sales forecasting, customer insights</li>
-      <li><b>Problem-Solving:</b> Critical thinking, data-driven decision-making</li>
-      <li><b>Project Management:</b> Planning, reporting, teamwork, delegating</li>
-      <li><b>Communication:</b> Data presentation, report writing, effective communication</li>
-      <li><b>Tools:</b> R, SAS, Microsoft Office, Google Sites</li>
-    </ul>
-  </div>
+        <section id="skills-tools">
+            <h2>Skills & Tools</h2>
+            <ul>
+                <li><strong>Data Analysis:</strong> Statistical analysis, predictive modeling, data interpretation</li>
+                <li><strong>Business Analytics:</strong> Market analysis, sales forecasting, customer insights</li>
+                <li><strong>Problem-Solving:</strong> Critical thinking, data-driven decision-making</li>
+                <li><strong>Project Management:</strong> Planning, reporting, teamwork, delegating</li>
+                <li><strong>Communication:</strong> Data presentation, report writing, effective communication</li>
+                <li><strong>Tools:</strong> R, SAS, Microsoft Office (Excel, Word, PowerPoint, Outlook), Google Sites</li>
+            </ul>
+        </section>
 
-  <h2>Contacts</h2>
-  <div class="section">
-    <p>Email: <a href="mailto:christine.nguyen2501@gmail.com">christine.nguyen2501@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-  </div>
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <p>Feel free to reach out:</p>
+            <ul>
+                <li>📧 <a href="mailto:christine.nguyen2501@gmail.com">christine.nguyen2501@gmail.com</a></li>
+                <li>🔗 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li>💻 <a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Chi Nguyen</p>
+    </footer>
 
 </body>
 </html>
