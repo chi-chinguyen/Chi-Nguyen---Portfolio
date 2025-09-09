@@ -32,9 +32,8 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: R, SAS, Excel, PowerPoint  
 - **Skills**: Data preprocessing, visualization, predictive modeling  
 - **Approach**: Logistic regression models (including complementary log-log). Evaluated using AIC, AICC, BIC.  
-[Loan Status Approach](Loan_Status_Approach.pdf)  
 - **Result**: Complementary log-log was most effective. Key predictors: income, loan amount, interest rate, loan intent, home ownership.  
-[Loan Status Results](Loan_Status_Results.pdf)  
+[Loan Status Results](Loan_Status_Results.pdf)  [Loan Status Approach](Loan_Status_Approach.pdf)  
 
 ---
 
@@ -44,9 +43,8 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Tools Used**: SAS, R, PowerPoint, Excel  
 - **Skills**: Statistical analysis, hypothesis testing  
 - **Approach**: One-way ANOVA, Tukey test, Kruskal-Wallis H-test, Wilcoxon Rank Sum test.  
-[Body Image Approach](Body_Image_Approach.pdf)  
 - **Result**: Significant differences in body image by work status (employed vs retired). No notable differences by education level.  
-[Body Image Results](Body_Image_Results.pdf)  
+[Body Image Results](Body_Image_Results.pdf)  [Body Image Approach](Body_Image_Approach.pdf)  
 
 ---
 
@@ -55,10 +53,9 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Data**: Bracis et al. (2015), step lengths, turning angles, displacement.  
 - **Tools Used**: R, Excel, PowerPoint  
 - **Skills**: Random walk modeling, data visualization  
-- **Approach**: Modeled foraging behavior, tested effect of regeneration rates.  
-[Animal Movement Approach](Animal_Movement_Approach.pdf)  
+- **Approach**: Modeled foraging behavior, tested effect of regeneration rates.   
 - **Result**: Scarce resources → wider foraging areas. Movement patterns suggested memory-guided strategy, not random.  
-[Animal Movement Results](Animal_Movement_Results.pdf)  
+[Animal Movement Results](Animal_Movement_Results.pdf)  [Animal Movement Approach](Animal_Movement_Approach.pdf) 
 
 ---
 
