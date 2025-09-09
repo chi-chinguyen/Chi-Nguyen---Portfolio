@@ -81,7 +81,7 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - **Problem-Solving**: Critical thinking, data-driven decision-making  
 - **Project Management**: Planning, reporting, teamwork, delegating  
 - **Communication**: Data presentation, report writing, effective communication  
-- **Tools**: R, SAS, Microsoft Office (Excel, Word, PowerPoint, Outlook), Google Sites  
+- **Tools**: R, SAS, Microsoft Suite (Excel, Word, PowerPoint, Outlook, etc..), Google Sites  
 
 ---
 
