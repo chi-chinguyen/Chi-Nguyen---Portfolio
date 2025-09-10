@@ -69,7 +69,7 @@
     .btn { display: inline-flex; align-items: center; gap: 10px; border-radius: 999px; padding: 12px 16px; font-weight: 600; text-decoration: none; transition: transform .12s ease, box-shadow .2s ease, background .2s ease; border: 1px solid var(--border); box-shadow: none; }
     .btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
     .btn:focus-visible { outline: none; box-shadow: 0 0 0 4px var(--ring); }
-    .btn-primary { background: linear-gradient(140deg, var(--accent), var(--accent-2), var(--accent-3), var(--accent-4)); color: #fff; border: none; }
+    .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2), var(--accent-3)); color: #fff; border: none; }
     .btn-ghost { background: transparent; color: var(--text); }
 
     .theme-toggle { border: 1px solid var(--border); background: var(--card); border-radius: 999px; padding: 8px 12px; cursor: pointer; }
@@ -132,6 +132,17 @@
 
     /* Footer */
     footer { border-top: 1px solid var(--border); padding: 28px 0 60px; color: var(--muted); }
+
+    /* Links */
+    a:not(.btn):not(.btn-link) { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 2px; }
+    a:not(.btn):not(.btn-link):hover { color: color-mix(in oklab, var(--accent-2) 70%, var(--accent)); }
+
+    /* Dark theme link & subtle component boosts for contrast */
+    .theme-dark a:not(.btn):not(.btn-link) { color: color-mix(in oklab, var(--accent) 85%, #ffffff); text-decoration-color: color-mix(in oklab, var(--accent) 65%, #ffffff); }
+    .theme-dark .btn-link { border: 1px solid color-mix(in oklab, var(--accent) 50%, var(--border)); background: color-mix(in oklab, var(--accent) 16%, var(--card)); color: #e5e7eb; }
+    .theme-dark .actions .btn-link:nth-child(2) { border-color: color-mix(in oklab, var(--accent-2) 50%, var(--border)); background: color-mix(in oklab, var(--accent-2) 16%, var(--card)); }
+    .theme-dark .nav-links a { color: #e2e8f0; }
+    .theme-dark .nav-links a:hover { color: #ffffff; }
 
     /* Highlights */
     .subtitle strong, .card ul li strong, .project-meta strong { color: var(--accent-2); font-weight: 700; }
