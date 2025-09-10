@@ -21,6 +21,8 @@
       --border: #e5e7eb; /* gray-200 */
       --accent: #2563eb; /* blue-600 */
       --accent-2: #7c3aed; /* violet-600 */
+      --accent-3: #059669; /* emerald-600 */
+      --accent-4: #f59e0b; /* amber-500 */
       --ring: rgba(37, 99, 235, 0.35);
       --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
       --radius: 16px;
@@ -33,6 +35,8 @@
       --border: #1f2937; /* gray-800 */
       --accent: #60a5fa; /* blue-400 */
       --accent-2: #a78bfa; /* violet-400 */
+      --accent-3: #34d399; /* emerald-400 */
+      --accent-4: #fbbf24; /* amber-300 */
       --ring: rgba(96, 165, 250, 0.35);
       --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
     }
@@ -56,13 +60,16 @@
     .brand__title { font-size: 1.05rem; }
     .brand__dot { color: var(--accent); }
     .nav-links { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
-    .nav-links a { text-decoration: none; color: var(--muted); font-weight: 600; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-weight: 600; position: relative; }
+    .nav-links a::after { content: ""; position: absolute; left: 0; bottom: -6px; width: 0; height: 2px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); transition: width .2s ease; }
+    .nav-links a:hover { color: var(--text); }
+    .nav-links a:hover::after { width: 100%; }
     .nav-links a:hover { color: var(--text); }
 
     .btn { display: inline-flex; align-items: center; gap: 10px; border-radius: 999px; padding: 10px 16px; font-weight: 600; text-decoration: none; transition: transform .12s ease, box-shadow .2s ease, background .2s ease; border: 1px solid var(--border); box-shadow: none; }
     .btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
     .btn:focus-visible { outline: none; box-shadow: 0 0 0 4px var(--ring); }
-    .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #fff; border: none; }
+    .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2), var(--accent-3)); color: #fff; border: none; }
     .btn-ghost { background: transparent; color: var(--text); }
 
     .theme-toggle { border: 1px solid var(--border); background: var(--card); border-radius: 999px; padding: 8px 12px; cursor: pointer; }
@@ -71,9 +78,12 @@
     header.hero { position: relative; padding: 64px 0 48px; overflow: clip; }
     .bg-blobs {
       position: absolute; inset: -10% -10% auto -10%; pointer-events: none; z-index: -1;
-      background: radial-gradient(600px 200px at 10% -10%, color-mix(in oklab, var(--accent) 25%, transparent), transparent),
-                  radial-gradient(500px 160px at 90% 0%, color-mix(in oklab, var(--accent-2) 23%, transparent), transparent);
-      filter: blur(30px); height: 320px; opacity: .5;
+      background:
+        radial-gradient(600px 220px at 12% -10%, color-mix(in oklab, var(--accent) 28%, transparent), transparent),
+        radial-gradient(520px 180px at 88% 0%, color-mix(in oklab, var(--accent-2) 24%, transparent), transparent),
+        radial-gradient(360px 160px at 20% 60%, color-mix(in oklab, var(--accent-3) 20%, transparent), transparent),
+        radial-gradient(380px 140px at 80% 70%, color-mix(in oklab, var(--accent-4) 18%, transparent), transparent);
+      filter: blur(30px); height: 340px; opacity: .55;
     }
     .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 32px; align-items: center; }
     .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; color: var(--muted); font-weight: 700; }
@@ -85,7 +95,10 @@
     /* Sections */
     section { padding: 56px 0; border-top: 1px solid var(--border); }
     section:first-of-type { border-top: 0; }
-    .section-title { font-weight: 800; letter-spacing: -0.02em; font-size: 1.5rem; margin: 0 0 22px; }
+    .section-title { font-weight: 800; letter-spacing: -0.02em; font-size: 1.5rem; margin: 0 0 22px;
+      background-image: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-3), var(--accent-4));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
     .section-desc { color: var(--muted); margin-top: -8px; margin-bottom: 26px; }
 
     /* Projects */
@@ -100,6 +113,10 @@
     .project-meta { color: var(--muted); font-size: .92rem; margin-bottom: 10px; }
     .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px; }
     .tag { display: inline-flex; align-items: center; padding: 6px 10px; font-size: .8rem; font-weight: 600; background: color-mix(in oklab, var(--accent) 10%, var(--card)); color: color-mix(in oklab, var(--accent) 90%, var(--text)); border: 1px solid color-mix(in oklab, var(--accent) 30%, var(--border)); border-radius: 999px; }
+    /* gentle color variety across tags */
+    .tags .tag:nth-child(4n+2) { background: color-mix(in oklab, var(--accent-2) 10%, var(--card)); color: color-mix(in oklab, var(--accent-2) 90%, var(--text)); border-color: color-mix(in oklab, var(--accent-2) 30%, var(--border)); }
+    .tags .tag:nth-child(4n+3) { background: color-mix(in oklab, var(--accent-3) 10%, var(--card)); color: color-mix(in oklab, var(--accent-3) 90%, var(--text)); border-color: color-mix(in oklab, var(--accent-3) 30%, var(--border)); }
+    .tags .tag:nth-child(4n+4) { background: color-mix(in oklab, var(--accent-4) 12%, var(--card)); color: color-mix(in oklab, var(--accent-4) 90%, var(--text)); border-color: color-mix(in oklab, var(--accent-4) 32%, var(--border)); }
     .actions { display: flex; gap: 8px; flex-wrap: wrap; }
     .btn-link { border-radius: 10px; padding: 8px 12px; border: 1px dashed var(--border); text-decoration: none; color: var(--text); }
     .btn-link:hover { border-style: solid; }
@@ -354,7 +371,7 @@
       const icon = document.getElementById('themeIcon');
       const storageKey = 'chi-theme';
       const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const current = localStorage.getItem(storageKey) || (preferDark ? 'dark' : 'light');
+      const current = localStorage.getItem(storageKey) || 'light';
       if (current === 'dark') { root.classList.add('theme-dark'); icon.textContent = '☀️'; }
       btn.addEventListener('click', () => {
         const isDark = root.classList.toggle('theme-dark');
