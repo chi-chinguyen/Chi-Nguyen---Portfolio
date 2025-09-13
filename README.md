@@ -113,6 +113,13 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 
 ---
 
+## Extracurricular
+- Student Assistant at the Math & Statistics Department, California State University, Long Beach
+- Student Assistant at International Student Program, Golden West College
+- Event Planner for Leflair monthly events & Company Activities, Leflair Vietnam
+- Mentor at the Mentor Program at Deakin University.
+
+---
 ## Contacts
 Feel free to reach out:  
 📧 [Email](mailto:christine.nguyen2501@gmail.com)  
