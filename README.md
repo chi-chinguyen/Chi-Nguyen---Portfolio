@@ -8,9 +8,12 @@
    - [Animal Movement in Foraging Analysis](#animal-movement-in-foraging-analysis)  
    - [Cross-border Hub, Leflair Vietnam](#cross-border-hub-leflair-vietnam)  
 4. [Work Experience](#work-experience)
-5. [Skills & Tools](#skills--tools)
-6. [Extracurricular](#extracurricular)
-7. [Contacts](#contacts)  
+   - [Project Management Manager/ Business Development Manager](#project-management-manager-/-business-development-manager)
+   - [Business Development Executive](#business-development-executive)
+   - [Sales, Store admin cum Marketing Executive](#sales,-store-admin-cum-marketing-executive)
+6. [Skills & Tools](#skills--tools)
+7. [Extracurricular](#extracurricular)
+8. [Contacts](#contacts)  
 
 ---
 
@@ -75,8 +78,8 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 ---
 
 ## Work Experience
-### Leflair Vietnam (Hochiminh City, Vietnam)
-**Project Management Manager/ Business Development Manager** (Jun 2016 to Aug 2018)
+### Project Management Manager/ Business Development Manager
+**Leflair Vietnam** (Hochiminh City, Vietnam - Jun 2016 to Aug 2018)
 - Led cross-border hub project in Singapore, coordinating planning, forecasting, and logistics to streamline supply chain operations.
 - Developed SOPs across warehouse, operations, and commercial functions, ensuring compliance and efficiency.
 - Collected and analyzed supplier and sales data to prepare tactical plans with scope, budget, and schedule considerations.
@@ -85,16 +88,16 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 - Reported results and performance metrics to leadership to support decision-making and continuous improvement.
 
 
-### Leflair Vietnam (Hochiminh City, Vietnam)
-**Business Development Executive** 	(Apr 2015 to Jun 2016)
+### Business Development Executive
+**Leflair Vietnam** 	(Hochiminh City, Vietnam - Apr 2015 to Jun 2016)
 - Established administrative and legal frameworks to support company operations and compliance.
 - Managed supplier negotiations and contracts to improve procurement efficiency.
 - Coordinated hiring and onboarding, supporting organizational infrastructure.
 - Collected and reported supplier and sales data for forecasting and planning.
 
 
-### I-contact Optometrist	(Melbourne, Australia)
-**Sales, Store admin cum Marketing Executive**	(2011–2015)
+### Sales, Store admin cum Marketing Executive
+**I-contact Optometrist**	(Melbourne, Australia - 2011 to 2015)
 - Managed store operations, inventory, and customer service workflows.
 - Ensured compliance with health and safety standards.
 - Collected and reported sales data to management, improving efficiency and performance tracking.
