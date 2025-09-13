@@ -125,6 +125,6 @@ For more information, please refer to my CV [here](Chi_Nguyen_CV.pdf).
 ---
 ## Contacts
 Feel free to reach out:  
-📧 [Email](mailto:christine.nguyen2501@gmail.com)  
+📧 Email: christine.nguyen2501@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/chinguyenvn/)  
 💻 [GitHub](http://github.com/chi-chinguyen/Chi-Nguyen---Portfolio)  
